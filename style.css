@@ -7,7 +7,7 @@
 
 html {
     scroll-behavior: smooth;
-    background-image: linear-gradient(rgba(0,0,0,0.3),transparent),url(images/background.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.3),transparent),url('./images/background.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -93,7 +93,7 @@ nav ul li a:hover::after {
     width: 150%;
     color: transparent;
     -webkit-text-stroke:1px #fff;
-    background: url(images/back.png);
+    background: url('./images/back.png');
     -webkit-background-clip: text;
     background-position: 0 0;
     animation: back 20s linear infinite;
